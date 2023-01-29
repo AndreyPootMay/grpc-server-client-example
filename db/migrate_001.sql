@@ -1,0 +1,14 @@
+CREATE TABLE `cases` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`full_name` VARCHAR(40) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`location` VARCHAR(40) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`age` INT(11) NULL DEFAULT NULL,
+	`infected_type` VARCHAR(40) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`state` VARCHAR(20) NULL DEFAULT NULL COLLATE 'utf8mb4_general_ci',
+	`active` TINYINT(1) NOT NULL DEFAULT '1',
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8mb4_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=8
+;
