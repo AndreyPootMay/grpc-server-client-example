@@ -1,6 +1,6 @@
 ## gRPC Example (Using node js)
 
-In this session, doubts about the first phase of the project were solved and the students were taught about rcp (remote procedure calls) and also the gRCP framework was taught, which is a very useful tool to implement rcp.
+In this session, doubts about the first phase of the project were solved and the students were taught about rpc (remote procedure calls) and also the gRPC framework was taught, which is a very useful tool to implement rpc.
 
 ### Installing commands:
 
